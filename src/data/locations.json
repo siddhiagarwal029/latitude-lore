@@ -1,0 +1,21 @@
+[
+  {
+  "lat": 28.6139,
+  "lng": 77.2090,
+  "name": "Delhi",
+  "fact": "Red Fort was originally white!",
+  "image": "https://www.hindustantimes.com/ht-img/img/2024/02/13/1600x900/red_fort_1660548724418_1707862617591.jpg",
+  "sound": "https://cdn.pixabay.com/audio/2025/03/10/audio_5a7de80100.mp3",
+  "tags": ["history", "india", "tabla"]
+}
+,
+  {
+    "lat": -13.1631,
+    "lng": -72.5450,
+    "name": "Machu Picchu",
+    "fact": "Built without mortar – the stones fit so perfectly!",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Machu_Picchu%2C_Peru.jpg",
+    "sound": "https://cdn.pixabay.com/download/audio/2022/03/13/audio_d0add212b7.mp3?filename=mystical-music-54294.mp3",
+    "tags": ["inca", "mystery", "ruins"]
+  }
+]
