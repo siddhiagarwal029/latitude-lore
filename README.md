@@ -1,12 +1,48 @@
-# React + Vite
+<h1 align="center">🌌 Latitude Lore 🪐</h1>
+<p align="center">
+  <em>A magical journey across Earth, revealing secrets hidden in the stars 🌍✨</em>
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🧭 What is Latitude Lore?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Latitude Lore** is an immersive 3D globe experience built with love, React, and cosmic energy 💫  
+Click on any glowing point on Earth to unveil a mystical fact about that location — accompanied by ethereal ambient sounds that transport you beyond space and time.
 
-## Expanding the ESLint configuration
+> 🧙‍♀️ Each place tells a story.  
+> 🪄 Some ancient, some forgotten, all magical.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🌍 Features
+
+- 🪐 Interactive 3D Earth using `react-globe.gl`
+- ✨ Lore-based popups with facts and location images
+- 🎵 Ambient sound per location with `howler.js`
+- 🌌 Background cosmic soundtrack that loops softly
+- 📦 Lore loaded from external `JSON` file
+- 🔎 Search + tag filter incoming (soon...)
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool         | Purpose                        |
+|--------------|--------------------------------|
+| React        | Core framework                 |
+| Vite         | Fast dev + build tool          |
+| react-globe.gl | 3D Earth rendering            |
+| Three.js     | WebGL rendering engine         |
+| Howler.js    | Sound playback system 🎧       |
+| TailwindCSS  | Styling wizardry 💅            |
+
+---
+
+## 🎮 How to Run Locally
+
+```bash
+git clone https://github.com/siddhiagarwal029/latitude-lore.git
+cd latitude-lore
+npm install
+npm run dev
