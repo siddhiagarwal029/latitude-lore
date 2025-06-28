@@ -20,7 +20,7 @@ const GlobeComponent = () => {
  // Replace with any cosmic mp3
       html5: true,
       loop: true,
-      volume: 0.7
+      volume: 0.4
 
     });
 
@@ -59,17 +59,32 @@ const GlobeComponent = () => {
   return (
     <div style={{ height: '100vh', width: '100%', position: 'relative' }}>
       <Globe
-        ref={globeRef}
-        globeImageUrl="//unpkg.com/three-globe/example/img/earth-blue-marble.jpg"
-        backgroundImageUrl="//unpkg.com/three-globe/example/img/night-sky.png"
-        backgroundColor="black"
-        pointsData={locations}
-        pointLat={d => d.lat}
-        pointLng={d => d.lng}
-        pointAltitude={0.05}
-        pointColor={() => "orange"}
-        onPointClick={handlePointClick}
-      />
+  ref={globeRef}
+  globeImageUrl="//unpkg.com/three-globe/example/img/earth-blue-marble.jpg"
+  backgroundImageUrl="//unpkg.com/three-globe/example/img/night-sky.png"
+  backgroundColor="black"
+  objectsData={locations}
+  objectLat={d => d.lat}
+  objectLng={d => d.lng}
+  customThreeObject={(d) => {
+    const sprite = new THREE.Sprite(
+      new THREE.SpriteMaterial({
+        map: new THREE.TextureLoader().load('https://raw.githubusercontent.com/emmelleppi/particle-glow/master/glow.png'),
+        color: new THREE.Color('#8a2be2'),
+        transparent: true,
+        depthWrite: false,
+        opacity: 0.8
+      })
+    );
+    sprite.scale.set(1, 1, 1);
+    return sprite;
+  }}
+  customThreeObjectUpdate={(obj, d) => {
+    obj.lookAt(globeRef.current.camera().position);
+  }}
+  onObjectClick={handlePointClick}
+/>
+
 
       {selectedPoint && (
         <div
@@ -116,12 +131,11 @@ const GlobeComponent = () => {
 
           {selectedPoint.sound && (
             <p style={{ fontSize: '0.75rem', marginTop: '0.5rem', opacity: 0.7 }}>
-              Sound playing... 🎧
             </p>
           )}
 
           <p style={{ fontSize: '0.75rem', marginTop: '0.75rem', opacity: 0.7 }}>
-            (Click anywhere to close)
+            (Click here to close)
           </p>
         </div>
       )}

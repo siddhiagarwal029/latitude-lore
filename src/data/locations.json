@@ -17,5 +17,124 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Machu_Picchu%2C_Peru.jpg",
     "sound": "https://cdn.pixabay.com/download/audio/2022/03/13/audio_d0add212b7.mp3?filename=mystical-music-54294.mp3",
     "tags": ["inca", "mystery", "ruins"]
+  },
+  {
+  "lat": 21.1242,
+  "lng": -11.4040,
+  "name": "Eye of the Sahara",
+  "fact": "A 40km-wide spiral visible from space — some think it's Atlantis’ ruins 🌍🌀",
+  "image": "https://i0.wp.com/geologyscience.com/wp-content/uploads/2019/05/RICHAT-STRUCTURE.jpg?fit=771%2C677&ssl=1",
+  "sound": "https://cdn.pixabay.com/audio/2022/02/24/audio_2520cbf97b.mp3"
+}
+,
+{
+  "lat": -34.3659,
+  "lng": -58.7391,
+  "name": "The Eye, Argentina",
+  "fact": "A perfectly circular rotating island in a swamp — scientists still can't explain how it spins…",
+  "image": "https://cdnimpuls.com/a2news.com/media3/-900-0-1740051746xd576032f2d1c8554fc95f57eca9d4c7f-814.jpg",
+  "sound": "https://cdn.pixabay.com/audio/2022/11/23/audio_48cd0edb3c.mp3"
+}
+,
+{
+  "lat": 20.0268,
+  "lng": 75.1791,
+  "name": "Ellora Caves",
+  "fact": "The Kailasa temple was carved from a single rock — 200,000 tons removed… by hand… 1,200 years ago 🔨",
+  "image": "https://hinduismtoday.b-cdn.net/wp-content/uploads/2024/03/04_DSC_4863_HD-1024x684.jpg",
+  "sound": "https://cdn.pixabay.com/audio/2021/12/08/audio_3388e70c7a.mp3"
+}
+,
+{
+  "lat": -2.4000,
+  "lng": 36.0000,
+  "name": "Lake Natron",
+  "fact": "This blood-red lake literally petrifies animals. They turn to stone if they touch it 💀",
+  "image": "https://www.pandotrip.com/wp-content/uploads/2014/05/Untitled-20-980x655.jpg",
+  "sound": "https://cdn.pixabay.com/audio/2023/03/30/audio_06d304f6c1.mp3"
+}
+,
+{
+  "lat": 44.5902,
+  "lng": -104.7146,
+  "name": "Devil's Tower",
+  "fact": "This 265m tall monolith is so strange, it was the first U.S. national monument — legends say it was created by a giant bear spirit 🐾",
+  "image": "https://i0.wp.com/geologyscience.com/wp-content/uploads/2023/03/rethink-devils-tower_h.jpg?fit=2400%2C1350&ssl=1",
+  "sound": "https://cdn.pixabay.com/audio/2022/03/11/audio_302f06333e.mp3"
+}
+,
+{
+  "lat": 12.4634,
+  "lng": 53.8236,
+  "name": "Socotra Island",
+  "fact": "Dubbed the 'Alien Island' — 30% of its plant life exists nowhere else on Earth 🌱👽",
+  "image": "https://embracesocotra.com/wp-content/uploads/2024/03/About-Socotra-Bottle-Tree.jpg",
+  "sound": "https://cdn.pixabay.com/audio/2022/11/28/audio_2a4b03db47.mp3"
+}
+,
+  {
+    "lat": 64.9631,
+    "lng": -19.0208,
+    "name": "Iceland",
+    "fact": "Home to more geothermal energy than people. Also... elves have legal rights. For real.",
+    "image": "https://images.travelandleisureasia.com/wp-content/uploads/sites/3/2024/02/12190030/Kirkjufell-1600x900.jpg",
+    "sound": "https://cdn.pixabay.com/audio/2022/03/22/audio_8506a89a4e.mp3"
+  },
+  {
+    "lat": 15.8700,
+    "lng": 100.9925,
+    "name": "Thailand Temples",
+    "fact": "Some temples are built in caves with glowing crystals and underground meditation chambers ✨",
+    "image": "https://res.klook.com/image/upload/q_85/c_fill,w_750/v1685414981/blog/knbrkqkn6sw1xy1kgn3l.jpg",
+    "sound": "https://cdn.pixabay.com/audio/2022/03/04/audio_8ddfcb60fd.mp3"
+  },
+  {
+    "lat": 31.7767,
+    "lng": 35.2345,
+    "name": "Jerusalem",
+    "fact": "One of the oldest continuously inhabited cities — with sacred roots across 3 major religions 🕊",
+    "image": "https://www.onthegotours.com/repository/Jerusalem--Israel-Tours--On-The-Go-Tours-579051521220527.jpg",
+    "sound": "https://cdn.pixabay.com/audio/2022/03/15/audio_97aa1edddf.mp3"
+  },
+  {
+    "lat": 43.7230,
+    "lng": 10.3966,
+    "name": "Pisa",
+    "fact": "The Leaning Tower tilts due to unstable soil — but stayed standing even after 4 earthquakes 😮‍💨",
+    "image": "https://www.walksofitaly.com/blog/wp-content/uploads/2016/10/Leaning-tower-of-pisa-facts-vertical.jpg",
+    "sound": "https://cdn.pixabay.com/audio/2022/03/11/audio_4eb1a1cd63.mp3"
+  },
+  {
+    "lat": 25.0000,
+    "lng": -71.0000,
+    "name": "Bermuda Triangle",
+    "fact": "Ships & planes vanish here without a trace — some blame magnetic anomalies, others... aliens 👀",
+    "image": "https://www.travelandleisure.com/thmb/zCRmciRdrlXLuEDi1edDSL_o9oc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/bermuda-triangle-BERMANGLE1019-436147ef3b384779a846eeff910bf323.jpg",
+    "sound": "https://cdn.pixabay.com/audio/2022/11/11/audio_6792d9ff66.mp3"
+  },
+  {
+    "lat": 24.8667,
+    "lng": 121.5584,
+    "name": "Yonaguni Monument",
+    "fact": "An underwater rock formation off Japan — is it natural or the ruins of an ancient city?",
+    "image": "https://www.scubadiving.com/sites/default/files/styles/655_1x_/public/trevor/yonaguni-monument-japan.jpg?itok=Qe03GGIQ",
+    "sound": "https://cdn.pixabay.com/audio/2022/03/11/audio_4b7ad09f3f.mp3"
+  },
+  {
+    "lat": -14.7167,
+    "lng": -75.1333,
+    "name": "Nazca Lines, Peru",
+    "fact": "Massive geoglyphs etched into desert soil — only fully visible from the air ✈️",
+    "image": "https://www.grunge.com/img/gallery/the-history-of-perus-nazca-lines/l-intro-1672854455.jpg",
+    "sound": "https://cdn.pixabay.com/audio/2022/03/16/audio_5aa6c8bbce.mp3"
+  },
+  {
+    "lat": 19.0000,
+    "lng": -155.5000,
+    "name": "Hawaii Volcanoes",
+    "fact": "Some locals believe these volcanoes are sacred and that disturbing them brings a curse 🌋",
+    "image": "https://www.nps.gov/common/uploads/grid_builder/havo/crop16_9/21880675-BC19-42D5-F49218BA723EE8D2.jpg?width=640&quality=90&mode=crop",
+    "sound": "https://cdn.pixabay.com/audio/2022/03/08/audio_7db3cf7f86.mp3"
   }
+
 ]
